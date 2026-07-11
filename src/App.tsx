@@ -269,7 +269,22 @@ export default function App() {
                 Duolingo <ExternalLink className="w-3.5 h-3.5 opacity-60" />
               </motion.a>
 
-              {/* 4. Word of the Day */}
+              {/* 4. Word of the Day
+              <motion.a
+                href="https://www.transparent.com/word-of-the-day/today/spanish"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="relative p-5 bg-[#EF4444] text-white rounded-[24px] border-[6px] border-gray-900 shadow-[6px_6px_0_rgba(0,0,0,1)] hover:shadow-none translate-y-0 hover:translate-y-1 hover:bg-white hover:text-[#EF4444] transition-all font-black text-base text-center flex items-center justify-center gap-3 cursor-pointer"
+                style={{ fontFamily: "'Space Grotesk', sans-serif" }}
+                whileHover={{ scale: 1.02 }}
+                whileTap={{ scale: 0.97 }}
+              >
+                <div className="absolute inset-1 border-3 border-dashed border-white/40 rounded-[16px] pointer-events-none" />
+                <BookOpen className="w-5 h-5" />
+                Word of the Day
+              </motion.a> */}
+
+              {/* 4. Word of the Day - STATIC DICTIONARY  */}
               <motion.button
                 onClick={() => setActiveView("word")}
                 className="relative p-5 bg-[#EF4444] text-white rounded-[24px] border-[6px] border-gray-900 shadow-[6px_6px_0_rgba(0,0,0,1)] hover:shadow-none translate-y-0 hover:translate-y-1 hover:bg-white hover:text-[#EF4444] transition-all font-black text-base text-center flex items-center justify-center gap-3 cursor-pointer"
