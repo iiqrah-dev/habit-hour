@@ -216,11 +216,11 @@ export default function WordView({ onBack }: WordViewProps) {
                 </div>
               )}
 
-              {data?.isFallback && (
+              {/* {data?.isFallback && (
                 <p className="text-[10px] text-rose-200 font-mono italic">
                   (Offline mode: displaying curated stream word)
                 </p>
-              )}
+              )} */}
             </div>
           )}
 

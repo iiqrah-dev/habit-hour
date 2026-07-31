@@ -746,6 +746,7 @@ export default function ArtView({ onBack }: ArtViewProps) {
                   onTouchStart={startDrawing}
                   onTouchMove={draw}
                   onTouchEnd={stopDrawing}
+                  style={{ touchAction: "none" }}
                   className="absolute inset-0 w-full h-full"
                 />
               </div>
